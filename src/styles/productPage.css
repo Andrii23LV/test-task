@@ -1,0 +1,108 @@
+.product-wrap {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(166, 166, 166);
+    height: 100vh;
+    justify-content: center;
+}
+
+.product-details {
+    display: flex;
+    background-color: white;
+    margin: 0.5rem 3rem;
+    padding: 0 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.product-details__back-btn {
+    border: 1px solid gray;
+    border-radius: 1rem;
+    padding: 0.25rem 1rem;
+    margin: 1rem 2rem;
+}
+
+.product-details__back-btn:hover {
+    background-color: rgb(127, 127, 127);
+    color: white;
+    cursor: pointer;
+}
+
+.product-details__title {
+    padding: 1rem 2rem;
+    padding-top: 0;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.product-details__id {
+    padding: 0 2rem;
+    margin: 0;
+    font-style: italic;
+}
+
+.product-details__img {
+    width: 350px;
+    max-width: 100%;
+}
+
+.product-details__description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+.product-comments {
+    background-color: white;
+    padding: 1rem;
+    min-width: 30%;
+    margin: 0.5rem 3rem;
+}
+
+.comment-card {
+    background-color: white;
+    min-width: 300px;
+    padding: 1rem;
+}
+
+.comment-card__title {
+    color: rgb(202, 161, 83);
+    margin: 0;
+}
+
+.product-details__edit-btn {
+    border: 1px solid gray;
+    background-color: rgb(175, 175, 255);
+    border-radius: 1rem;
+    padding: 0.25rem 1rem;
+    margin: 1rem 2rem;
+}
+
+.product-details__edit-btn:hover {
+    background-color: rgb(74, 74, 149);
+    cursor: pointer;
+    color: white;
+}
+
+.comment-card__delete-btn {
+    background-color: rgb(232, 100, 126);
+    height: 30px;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    margin-left: 2rem;
+}
+
+.comment-card__delete-btn:hover {
+    background-color: rgb(120, 47, 62);
+    cursor: pointer;
+}
+
+.product-comment__add-btn {
+    display: flex;
+    margin: 0 auto;
+}

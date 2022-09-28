@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 112,
+      "imageUrl": "https://www.freepnglogos.com/uploads/car-png/volkswagen-sport-coupe-gte-yellow-car-png-image-pngpix-38.png",
+      "name": "Volkswagen",
+      "count": 10,
+      "size": {
+        "width": 25,
+        "height": 25
+      },
+      "weight": "25kg",
+      "comments": [
+        {
+          "id": 1,
+          "productId": 112,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 2,
+          "productId": 112,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "imageUrl": "https://www.freepnglogos.com/uploads/car-png/volkswagen-sport-coupe-gte-yellow-car-png-image-pngpix-38.png",
+      "name": "Volkswagen",
+      "count": 5,
+      "size": {
+        "width": 25,
+        "height": 25
+      },
+      "weight": "25kg",
+      "comments": [
+        {
+          "id": 1,
+          "productId": 113,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 2,
+          "productId": 113,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        }
+      ]
+    }
+  ]
+}
